@@ -1,0 +1,27 @@
+// Windows resources: the program icon (box art crop, tools/make_icon.ps1) and version info.
+#include <winver.h>
+
+1 ICON "mcla.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 0, 4, 0, 0
+PRODUCTVERSION 0, 4, 0, 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "Midnight Club: Los Angeles"
+            VALUE "ProductName", "Midnight Club: Los Angeles (PC port)"
+            VALUE "FileVersion", "0.4"
+            VALUE "ProductVersion", "0.4"
+            VALUE "OriginalFilename", "MCLA.exe"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

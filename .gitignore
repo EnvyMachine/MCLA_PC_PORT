@@ -1,0 +1,26 @@
+# Game data and everything derived from it stays local: bring your own copy.
+/game/
+/extracted/
+/ppc/
+/shaders/
+/MCLA/res/boxart.png
+
+# Build output and local test builds
+/build/
+/dist/
+
+# Reference checkouts used while developing (not needed to build)
+/thirdparty/reference/
+/thirdparty/xenia-canary/
+
+# Logs and dumps
+/notes/*.log
+/notes/*.txt
+*.log
+
+# The playable build: program files only, never game files, saves or logs
+/release/*/game/
+/release/*/userdata/
+/release/*/screenshots/
+/release/*/*.pdb
+/release/*.zip
